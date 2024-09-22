@@ -23,7 +23,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find Queen Mommy of Karenarnia and the treasure.") 
 
-hero = input("Welcome advendturer! What is your name? \n")
+hero = input("Welcome adventurer! What is your name? \n")
 choice1 = input(f'Welcome, {hero}! Let\'s begin! Will you go "left" or "right"? \n').lower()
 
 if choice1 == "left":
@@ -31,7 +31,7 @@ if choice1 == "left":
     if choice2 == "wait":
         choice3 = input("You discover a small boat and row across. You arrive at the island unharmed. There is a castle with 3 doors. One red, one yellow and one blue. Which color do you choose? \n").lower()
         if choice3 == "yellow":
-            choice4 = input("You enter a hall of mirrors. Will you go left, right, or staight? \n").lower()
+            choice4 = input("You enter a hall of mirrors. Will you go left, right, or straight? \n").lower()
             if choice4 == "left":
                 choice5 = input('There\'s a red button. Will you push it? Type "yes" or "no". \n').lower()
                 if choice5 == "yes":
